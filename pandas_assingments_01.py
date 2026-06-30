@@ -31,8 +31,8 @@
 # 2.x.x
 # """
 
-# import pandas as pd
-# print(pd.__version__)
+import pandas as pd
+print(pd.__version__)
 
 
 # """
@@ -55,10 +55,10 @@
 # dtype: int64
 # """
 
-# import pandas as pd
-# marks=[10,20,30,40,50]
-# series=pd.Series(marks)
-# print(series)
+import pandas as pd
+marks=[10,20,30,40,50]
+series=pd.Series(marks)
+print(series)
 
 # """
 # # Q3. Create a Series of Student Names
@@ -79,9 +79,9 @@
 # dtype: object
 # """
 
-# import pandas as pd
-# names=pd.Series(["Aman","Rahul","Neha","Priya"])
-# print(names)
+import pandas as pd
+names=pd.Series(["Aman","Rahul","Neha","Priya"])
+print(names)
 
 
 # """
@@ -106,9 +106,9 @@
 # dtype: int64
 # """
 
-# import pandas as pd
-# marks=pd.Series({"Maths":80,"Science":75,"English":90}) # dict.. accept the keys and values
-# print(marks)
+import pandas as pd
+marks=pd.Series({"Maths":80,"Science":75,"English":90}) # dict.. accept the keys and values
+print(marks)
 
 # """
 
@@ -130,11 +130,11 @@
 # 2   Neha   20
 # """
 
-# import pandas as pd
-# name=["Aman","Rahul","Neha"]
-# age=[21,22,20]
-# dataframe=pd.DataFrame({"Name":name,"Age":age})
-# print(dataframe)
+import pandas as pd
+name=["Aman","Rahul","Neha"]
+age=[21,22,20]
+dataframe=pd.DataFrame({"Name":name,"Age":age})
+print(dataframe)
 
 
 # """
@@ -156,9 +156,9 @@
 # 2     Mike   55000
 # """
 
-# import pandas as pd 
-# detail=pd.DataFrame({"Employee":["John","Sara","Mike"],"Salary":["50000","60000","55000"]})
-# print(detail)
+import pandas as pd 
+detail=pd.DataFrame({"Employee":["John","Sara","Mike"],"Salary":["50000","60000","55000"]})
+print(detail)
 
 
 # """
@@ -184,13 +184,13 @@
 # """
 
 
-# import pandas as pd 
-# import numpy as np
-# arr=np.array([[1,2],
-#               [3,4],
-#               [5,6]])
-# pd_df=pd.DataFrame(arr)
-# print(pd_df)
+import pandas as pd 
+import numpy as np
+arr=np.array([[1,2],
+              [3,4],
+              [5,6]])
+pd_df=pd.DataFrame(arr)
+print(pd_df)
 
 
 # """
@@ -214,9 +214,9 @@
 # """
 
 
-# import pandas as pd 
-# detail=pd.DataFrame({"Product":["Laptop","Mouse","Keyboard"],"Price":["50000","500","1200"]})
-# print(detail)
+import pandas as pd 
+detail=pd.DataFrame({"Product":["Laptop","Mouse","Keyboard"],"Price":["50000","500","1200"]})
+print(detail)
 
 
 
@@ -239,9 +239,9 @@
 # <class 'pandas.core.frame.DataFrame'>
 # """
 
-# import pandas as pd
-# df=pd.DataFrame({"Name":["Aman","Angad","Pawan"],"Age":[20,22,20]})
-# df.info()
+import pandas as pd
+df=pd.DataFrame({"Name":["Aman","Angad","Pawan"],"Age":[20,22,20]})
+df.info()
 
 
 # """
@@ -267,10 +267,10 @@
 # """
 
 
-# import pandas as pd 
-# name=["A","B","C"]
-# marks=[80,75,90]
-# detail=pd.DataFrame({"Name":name,"Marks":marks})
-# print(detail)
+import pandas as pd 
+name=["A","B","C"]
+marks=[80,75,90]
+detail=pd.DataFrame({"Name":name,"Marks":marks})
+print(detail)
 
 
